@@ -1,4 +1,4 @@
 Todo list app made using:
-React
-Typescript
+React,
+Typescript,
 Sass modules
