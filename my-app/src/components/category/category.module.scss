@@ -1,0 +1,70 @@
+@import "../../global/palette.module.scss";
+
+.main {
+
+  cursor: pointer;
+  user-select: none;
+
+  &__category-txt {
+
+    &__green2 {
+      color: $green2;
+    }
+
+    &__green3 {
+      color: $green3;
+    }
+
+    &__red {
+      color: $red
+    }
+
+    &__gray {
+      color: $gray;
+    }
+
+    &__pink {
+      color: $pink;
+    }
+
+    &__good-pink {
+      color: $good-pink;
+    }
+
+    &__purple {
+      color: $purple;
+    }
+
+    &__blue {
+      color: $blue;
+    }
+
+    &__strange-blue {
+      color: $strange-blue;
+    }
+
+    &__cyan {
+      color: $cyan;
+    }
+
+    &__yellow {
+      color: $yellow;
+    }
+
+    &__red {
+      color: $red;
+    }
+
+  }
+
+
+
+  &__content-wrapper {
+
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 4vh;
+  }
+
+}

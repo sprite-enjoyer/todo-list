@@ -1,0 +1,17 @@
+@import "../../global/palette.module.scss";
+@import "../../global/global.scss";
+
+.input-box {
+
+  position: fixed;
+  top: 2%;
+  left: 39%;
+
+  &__input-field {
+    @include boxTheme;
+
+    &:focus {}
+  }
+
+
+}

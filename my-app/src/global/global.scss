@@ -1,0 +1,58 @@
+@import "./palette.module.scss";
+
+.App {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: $nice-beige;
+
+  font-family: 'Cairo', sans-serif;
+  font-size: x-large;
+
+  display: flex;
+
+  &__btn-wrapper {
+    position: absolute;
+    top: 2%;
+    right: 2%;
+  }
+
+  &__left-box {
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+    padding-top: 5%;
+    width: 25vw;
+    overflow-y: auto;
+  }
+
+
+  &__right-box {
+    display: flex;
+    margin: 1%;
+    margin-top: 15%;
+    margin-left: 0%;
+    justify-content: flex-start;
+    width: 75vw;
+    overflow-y: auto;
+  }
+}
+
+@mixin boxTheme {
+  -webkit-appearance: none;
+  border: 3px solid $nice-beige;
+  background-color: $black;
+  color: #D5DBDE;
+  width: 25vw;
+  height: 5vh;
+  border-radius: 7px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 0.7em;
+  resize: none;
+  box-shadow: none;
+  border: none;
+  outline: none;
+}

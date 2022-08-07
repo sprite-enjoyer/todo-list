@@ -1,0 +1,88 @@
+@import "../../global/palette.module.scss";
+
+.main {
+  background-color: $black;
+  border-radius: 50px;
+  width: 50vw;
+  height: 6vh;
+  margin-bottom: 1vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+
+
+  &__left-wrapper {
+    display: flex;
+    justify-content: space-between;
+
+
+    &__check-box {
+      -webkit-appearance: none;
+      appearance: none;
+      align-self: center;
+      margin-right: 2vw;
+      min-width: 20px;
+      min-height: 20px;
+      border: 2px solid $gray;
+      border-radius: 50%;
+      transition: 0.3s;
+
+      &:checked {
+        border: 2px solid $green2;
+        background-color: $green2;
+        transition: 0.3s;
+      }
+
+    }
+
+
+    &__txt-wrapper {
+      font: 'Raleway', sans-serif;
+      margin-right: 3vw;
+      margin-top: 0;
+      margin-bottom: 0;
+      display: flex;
+
+
+      &__txt {
+        color: #D5DBDE;
+        font-size: 0.8em;
+        margin-top: 1.1vh;
+        margin-bottom: 1.1vh;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
+        display: flex;
+        flex-direction: column;
+
+
+        &__completed-txt {
+          color: gray;
+          font-style: italic;
+        }
+
+
+        &__category-wrapper {
+          font-size: large;
+        }
+
+
+      }
+
+    }
+
+  }
+
+
+
+
+
+  &__task-category {
+
+    &__txt {
+      display: flex;
+    }
+
+  }
+
+}

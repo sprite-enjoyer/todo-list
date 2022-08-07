@@ -1,0 +1,26 @@
+@import "../../global/palette.module.scss";
+
+.main {
+  max-width: 20vw;
+  position: absolute;
+  top: 1%;
+  left: 50%;
+
+  &__txtArea {
+    -webkit-appearance: none;
+    border: 3px solid $black;
+    width: 25vw;
+    height: 4.3vh;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 0.7em;
+    resize: none;
+  }
+
+  &__category-chooser {
+    position: fixed;
+    top: 2%;
+    left: 39%;
+  }
+
+}

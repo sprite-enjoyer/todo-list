@@ -1,0 +1,20 @@
+@import "../../global/global.scss";
+@import "../../global/palette.module.scss";
+
+.main {
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+
+  &__txt-area-wrapper {
+
+
+    &__txtArea {
+      @include boxTheme;
+
+    }
+  }
+
+
+}
